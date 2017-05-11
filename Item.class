@@ -1,0 +1,13 @@
+import java.util.List;
+
+public abstract class Item {
+	
+	public List<Object> attributes;
+	public Object healthBoost;
+	public Object speedBoost;
+	public Object damageBoost;
+	
+	public abstract void pickUpItem();
+	public abstract void dropItem();
+	
+}
