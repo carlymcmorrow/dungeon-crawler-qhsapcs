@@ -1,0 +1,32 @@
+public class HealthPotion extends Item{
+	
+	private int size;
+	private int price;
+	private int currentCash;
+	
+	public HealthPotion(int size2, int price2){
+		size = size2;
+		price = price2;
+		currentCash = this.getCash;
+	}
+	
+	public void addToHealth(){
+		this.setHealth(this.getHealth() + size);
+	}
+	
+	public void changeCash(int inputCash){
+		currentCash = currentCash - inputCash; 
+	}
+
+	@Override
+	public void pickUpItem() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void dropItem() {
+		// TODO Auto-generated method stub
+		
+	}
+}
